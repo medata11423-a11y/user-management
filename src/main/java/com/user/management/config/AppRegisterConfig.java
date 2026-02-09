@@ -1,13 +1,13 @@
-package com.example.demo.config;
+package com.user.management.config;
 
-import com.example.demo.interceptor.LoggingInterceptor;
+import com.user.management.interceptor.LoggingInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
-public class InterceptorRegisterConfig implements WebMvcConfigurer {
+public class AppRegisterConfig implements WebMvcConfigurer {
 
     @Autowired LoggingInterceptor loggingInterceptor;
 

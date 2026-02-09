@@ -1,4 +1,4 @@
-package com.example.demo.exception;
+package com.user.management.exception;
 
 public class BadRequestException extends RuntimeException {
 

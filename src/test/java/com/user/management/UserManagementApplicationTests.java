@@ -1,6 +1,6 @@
-package com.example.demo;
+package com.user.management;
 
-import com.example.demo.service.UserService;
+import com.user.management.service.UserService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;

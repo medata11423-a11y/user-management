@@ -1,4 +1,4 @@
-package com.example.demo.exception;
+package com.user.management.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.example.demo.interceptor;
+package com.user.management.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -13,7 +13,7 @@ public class LoggingInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         long start = System.currentTimeMillis();
-        log.info("Exceution started {}", start);
+        log.info("Execution started {}", start);
         return true;
     }
 }

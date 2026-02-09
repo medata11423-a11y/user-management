@@ -1,10 +1,10 @@
-package com.example.demo.service.impl;
+package com.user.management.service.impl;
 
-import com.example.demo.dto.UserDto;
-import com.example.demo.dto.UserResponseDto;
-import com.example.demo.entity.UserJpaEntity;
-import com.example.demo.repository.UserJpaRepository;
-import com.example.demo.service.UserService;
+import com.user.management.dto.UserDto;
+import com.user.management.dto.UserResponseDto;
+import com.user.management.entity.UserJpaEntity;
+import com.user.management.repository.UserJpaRepository;
+import com.user.management.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

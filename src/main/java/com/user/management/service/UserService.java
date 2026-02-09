@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.user.management.service;
 
-import com.example.demo.dto.UserDto;
-import com.example.demo.dto.UserResponseDto;
+import com.user.management.dto.UserDto;
+import com.user.management.dto.UserResponseDto;
 
 public interface UserService {
 
